@@ -1,0 +1,26 @@
+site_name: Credo Education
+theme: material
+extra:
+  palette:
+    primary: 'blue'
+    accent: 'deep orange'
+pages:
+- Home: index.md
+- Select Your Product:
+  - Courseware:
+    - Admin: courseware-admins.md
+    - Students: courseware-students.md
+    - Instructors: courseware-instructors.md
+  - InfoLit Modules:
+    - Admin: infolit-modules-admins.md
+    - Students: infolit-modules-students.md
+    - Instructors: courseware-instructors.md
+  - SKILL Modules:
+    - Admin: skill-modules-admins.md
+    - Students: skill-modules-students.md
+    - Instructors: courseware-instructors.md
+
+markdown_extensions:
+    - toc:
+        permalink:
+    - admonition:
